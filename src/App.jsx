@@ -151,7 +151,7 @@ export default function App() {
   return (
     <ThemeProvider>
       <BookmarkProvider>
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router >
           <ParticleBackground />
           <Layout>
             <Routes>
