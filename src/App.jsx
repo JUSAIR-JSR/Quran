@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { HashRouter  as Router, Routes, Route } from 'react-router-dom'
 import { BookmarkProvider } from './context/BookmarkContext'
 import { ThemeProvider, useTheme } from './context/ThemeContext'
 import Layout from './components/Layout'
