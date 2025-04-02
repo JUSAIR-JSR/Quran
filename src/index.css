@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100;
+}
+
+.arabic-text {
+  font-family: '"Amiri Quran"', serif;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  direction: rtl;
+}
